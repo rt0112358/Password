@@ -1,3 +1,2 @@
 # password
-_Random password generator
----
+_Random password generator_
