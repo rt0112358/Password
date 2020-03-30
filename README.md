@@ -1,1 +1,4 @@
-# Password
+## password ##
+---
+Random password generator
+---
