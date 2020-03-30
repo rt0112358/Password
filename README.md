@@ -1,3 +1,3 @@
 ## password
-Random password generator
-**---
+**__Random password generator__**
+---
