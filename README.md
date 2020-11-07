@@ -19,5 +19,5 @@ $ make push msg="git commit message"
 
 **TODO:**
 - [ ] Clean up
-- [ ] Database for encrypted passwords
+- [x] Database for encrypted passwords
 - [ ] Prereq section
