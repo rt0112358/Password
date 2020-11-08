@@ -18,7 +18,8 @@ $ make push msg="git commit message"
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;_Create random password and send to raspi pi_ 
 ```console
-$ make pie"
+$ make pie
+```
 **TODO:**
 - [ ] Clean up
 - [x] Database for encrypted passwords
