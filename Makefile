@@ -15,6 +15,9 @@ all:
 	@echo '    make push msg="enter git commit message"'
 	@echo
 
+pie:
+	@./send_to_pie.sh
+
 push:
 	@githome 
 	@git status

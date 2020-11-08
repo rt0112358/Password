@@ -16,7 +16,9 @@ $ python crypto.py
 ```console
 $ make push msg="git commit message"
 ```
-
+&nbsp;&nbsp;&nbsp;&nbsp;_Create random password and send to raspi pi_ 
+```console
+$ make pie"
 **TODO:**
 - [ ] Clean up
 - [x] Database for encrypted passwords

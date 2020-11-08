@@ -28,6 +28,12 @@ print(type(encrypted))
 encrypted = encrypted.strip("'b'=")
 print(encrypted)
 
+def get_password():
+    ret_val = password
+    return ret_val
+
+# get_password(encrypte)
+
 host_name = sign_in.host_name()
 database_name = sign_in.database()
 username = sign_in.username()
@@ -49,7 +55,7 @@ try:
 
         sql_select_Query = "select * from users;"
         cursor = connection.cursor()
-
+        
         cursor.execute(sql_select_Query)
 
         data = cursor.fetchall()
@@ -57,7 +63,7 @@ try:
         username = "Qwerty"
 
 
-        insert_query = "insert into users values(39,'" + str(username) + "','" + str(encrypted) + "')"
+        insert_query = "insert into users values(42,'" + str(username) + "','" + str(encrypted) + "')"
         # print(insert_query)
         cursor.execute(insert_query)
         connection.commit()

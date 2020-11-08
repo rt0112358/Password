@@ -23,13 +23,12 @@ def get_password():
             output += numbers[random.randint(0,9)]
         else:
             print("Something blew up")
-
     return output
 
 def print_password():
     psswrd = get_password()
-    print()
+    # print()
     print(colored(psswrd, 'cyan', attrs=['bold']))
-    print()
+    # print()
 
 #TODO: add special characters to password generator
