@@ -3,7 +3,8 @@ import password
 
 def main():
     # print('Generating password...')
-    password.print_password()
-    # print(encrypted_password)
+    psswrd = password.get_password()
+    #print(psswrd)
+    print("USE pssword; INSERT INTO psswrds(location, psswrd) VALUES (sha('cupcake'), sha1('" + psswrd + "'));")
 
 main()

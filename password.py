@@ -30,5 +30,6 @@ def print_password():
     # print()
     print(colored(psswrd, 'cyan', attrs=['bold']))
     # print()
+    # return psswrd
 
 #TODO: add special characters to password generator

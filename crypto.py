@@ -32,8 +32,6 @@ def get_password():
     ret_val = password
     return ret_val
 
-# get_password(encrypte)
-
 host_name = sign_in.host_name()
 database_name = sign_in.database()
 username = sign_in.username()
@@ -63,7 +61,7 @@ try:
         username = "Qwerty"
 
 
-        insert_query = "insert into users values(42,'" + str(username) + "','" + str(encrypted) + "')"
+        insert_query = "insert into users values(93,'" + str(username) + "','" + str(encrypted) + "')"
         # print(insert_query)
         cursor.execute(insert_query)
         connection.commit()
